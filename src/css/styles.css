@@ -1,0 +1,209 @@
+/*MAIN STYLES*/
+
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+
+
+
+
+body {
+  padding-top:70px;
+  width:100%;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+
+}
+html {
+    width:100%;
+    overflow-x: hidden;
+}
+
+main {
+    width:100%;
+}
+
+.container {
+  width:100%;
+}
+
+
+section {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+img.navbar-brand {
+  max-height:100%;
+  width:auto;
+  padding:0px;
+  margin-top:10px;
+  padding-left: 20px;
+}
+
+.navbar-default {
+  background-color: rgba(0,55,145, 0.9);
+  box-shadow: 0 0 10px black;
+  height:70px;
+  border-bottom: 0px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    margin-top:10px;
+}
+
+
+
+.pic {
+  position:relative;
+  bottom:30px;
+}
+
+
+.myLaptop{
+  font-size:50px !important;
+
+}
+
+
+/*============HOME STYLE=======================*/
+.jumbotron {
+    background: url(../img/home_jumbo.jpg) no-repeat top center;
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-bottom: 0;*/
+    border: 2px solid rgba(0,55,145, 0.9);
+    /*margin-top: -15px;*/
+
+}
+
+
+/*============ABOUT ME STYLES==============*/
+
+#one {
+  font-family: 'Arimo', sans-serif;
+  font-size:18px;
+  font-weight:300;
+  text-align: center;
+  padding-top:60px;
+  color:white;
+  box-shadow: 0 3px 9px 3px rgba(6,6,6,0.7);
+  background: url(../img/ps4_small2.jpg) no-repeat top center;
+  background-size: cover;
+  background-position: center center;
+}
+
+#one h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+
+
+/*===========PORTFOLIO STYLES============*/
+
+#two {
+  font-size:16px;
+  font-weight:300;
+  padding-top:60px;
+  color: white;
+  box-shadow: 0 3px 9px 3px rgba(6,6,6,0.7);
+  background: url(../img/ball_small2.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+
+/*rgb(34,17,65);*/
+}
+
+#two h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+}
+
+.port {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.port img {
+    border: 2px solid #663399;
+}
+
+.project {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+/*=============CONTACT ME STYLES==============*/
+#three {
+  font-size:16px;
+  font-weight:300;
+  background-color:rgb(130,130,130);
+  padding-top:60px;
+  color:white;
+  box-shadow: 0 3px 9px 3px rgba(6,6,6,0.7);
+  background: url(../img/field.jpeg) no-repeat top center;
+  background-size: cover;
+  background-position: center center;
+}
+
+#three .fa-github-alt:hover {
+  color:#FFFFFF;
+  background-color:black;
+  transition:background-color 0.6s linear 0s, color 0.6s linear 0s;
+}
+
+.fa-github-alt {
+  /*background-color:rgb(191,191,191);*/
+  color:rgb(34,17,65);
+  margin:5px;
+  padding:10px;
+  border: 3px solid #FFFFFF;
+  border-radius:100%;
+  font-size:36px;
+}
+
+
+
+input {
+  background-color:transparent;
+  border-bottom: 2px solid rgb(34,17,65);
+  border-right:none;
+  border-top:none;
+  border-left:none;
+}
+
+
+
+
+/*===========FOOTER STYLES==========*/
+
+#footer {
+    background-color: rgb(34,17,65);
+    color:white;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
